@@ -1,0 +1,12 @@
+.input-primary {
+    @apply focus:bg-white bg-form-white focus:outline-blue-500 focus:outline-none;
+}
+
+.input-error {
+    @apply ring ring-red-600;
+}
+
+.input-primary-outline {
+    @apply bg-[#fff] focus:bg-[#fff] border-orange-200 focus:border-blue-500 outline-blue-500;
+    @apply file:bg-blue-500 file:text-white file:rounded-md file:p-2;
+}

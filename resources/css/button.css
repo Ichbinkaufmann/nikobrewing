@@ -1,24 +1,29 @@
-.btn-danger {
-    @apply bg-dangercolor text-white;
+.btn-primary {
+    @apply bg-danger text-white;
 }
-.btn-danger:hover {
-    @apply bg-dangercolorhover text-white;
+
+.btn-primary:hover {
+    @apply bg-dangerhover text-white;
 }
 
 .btn-success {
-    @apply bg-successcolor text-white;
+    @apply bg-success text-white;
 }
 
-.btn-success:hover {
-    @apply bg-successcolorhover text-white;
+.btn-success {
+    @apply bg-successhover text-white;
+}
+
+.btn-white {
+    @apply text-black bg-white border-black;
 }
 
 .btn-light-outline {
-    @apply text-black bg-whitecolor border border-black;
+    @apply text-white border border-white;
 }
 
 .btn-light-outline:hover {
-    @apply text-black border  border-black bg-grey;
+    @apply text-black border bg-gray-900;
 }
 
 .btn-white-outline {
